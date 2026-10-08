@@ -1,0 +1,49 @@
+# TechConX
+
+Landing page fictícia para a conferência de tecnologia TechConX 2026.
+
+## Sobre o projeto
+
+O site apresenta o evento TechConX, com uma proposta visual moderna voltada para tecnologia e inovação. A página reúne informações sobre os palestrantes, a programação de três dias e um link externo para inscrição.
+
+## Funcionalidades
+
+- Menu de navegação com links para as seções da página.
+- Seção inicial com apresentação do evento e botão de inscrição.
+- Área de palestrantes com quatro nomes fictícios.
+- Programação dividida em três dias, com eventos às 10h, 11h e 14h.
+- Navegação entre os dias da programação por meio de botões interativos.
+- Alternância entre tema escuro e tema claro.
+- Layout adaptável para telas menores por meio de media queries.
+
+## Tecnologias utilizadas
+
+- **HTML5:** estrutura e conteúdo da página.
+- **CSS3:** estilos, cores, layout, responsividade e temas.
+- **JavaScript:** interação dos botões de tema e seleção dos dias da programação.
+- **Google Fonts:** fontes Michroma e Martel Sans.
+
+## Como executar
+
+1. Baixe ou clone este repositório.
+2. Abra a pasta do projeto.
+3. Abra o arquivo `index.html` em um navegador.
+
+Não é necessário instalar dependências ou executar um servidor para visualizar a página localmente.
+
+## Estrutura do projeto
+
+```text
+TechConX/
+├── index.html
+├── styles.css
+└── .readme
+```
+
+## Observações
+
+O evento e os nomes dos palestrantes são fictícios e foram utilizados para fins demonstrativos. O botão de inscrição direciona para um formulário externo do Google Forms.
+
+## Autor
+
+Projeto desenvolvido para praticar a criação de uma landing page com HTML, CSS e JavaScript.
