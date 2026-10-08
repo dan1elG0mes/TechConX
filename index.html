@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="michroma-regular">TechConX</h1>
+        <nav>
+            <ul class="menu-links">
+                <li><a href='#home'>Home</a></li>
+                <li><a href='#Palestrantes'>Palestrantes</a></li>
+                <li><a href='#Programacao'>Programaçao</a></li>
+            </ul>
+        </nav>
+
+        <button id="btn-tema">Modo Escuro</button>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <h1 class="hero-title martel-sans-semibold ">
+                Explore Inovaçoes Ilimitadas na TechConX 2026
+            </h1>
+
+            <h3 class="hero-text martel-sans-regular">
+                Se conecte com quem está construido um novo futuro!
+            </h3>
+
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe0lydoUot0Sl_3OrpIJv1bY9IqflZ9Ur1--EH1wHPfYIb0Kw/viewform?usp=sharing&ouid=108943561310450220887" 
+            class="register-btn"
+            target="_blank"
+            
+            >
+                Registre-se agora!
+            </a>
+        </section>
+        <section class="Palestrantes" id="Palestrantes">
+
+            <span class="titulo_seçao martel-sans-semibold">Confira nossos Palestrantes</span>
+
+            <div class="cards_palestrantes">
+                <div class="p_icon">
+                    <p class="michroma-regular p_nomes">
+                        James Anderson
+                    </p>
+                </div>
+
+                <div class="p_icon">
+                    <p class="michroma-regular p_nomes">
+                        David Wilson
+                    </p>
+                </div>
+
+                <div class="p_icon">
+                    <p class="michroma-regular p_nomes">
+                        Charles Taylor
+                    </p>
+                </div>
+
+                <div class="p_icon">
+                    <p class="michroma-regular p_nomes">
+                        Thomas Miller
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="Programacao" id="Programacao">
+            <span class="titulo_seçao martel-sans-semibold">Programaçao do Evento</span>
+
+            <div class="aba-dias">
+                <button class="btn-dia ativo" data-dia="dia-1">Dia 01</button>
+                <button class="btn-dia" data-dia="dia-2">Dia 02</button>
+                <button class="btn-dia" data-dia="dia-3">Dia 03</button>
+            </div>
+
+            <div class="conteudo-programacao">
+                <!-- dia 01 -->
+                <div id="dia-1" class="timeline-dia ativo">
+                    <div class="evento">
+                        <div class="horario">10:00</div>
+                        <div class="ponto-timeline"></div>
+                        <div class="detalhes">
+                            <h4>IA Sem Limites </h4>
+                            <p>Como a inteligencia artificial esta transformando o mundo.</p>
+                        </div>
+                    </div>
+                    <div class="evento">
+                        <div class="horario">11:00</div>
+                        <div class="ponto-timeline"></div>
+                        <div class="detalhes">
+                            <h4>Codigo do Futuro</h4>
+                            <p>Novas tecnologias para programar e inovar</p>
+                        </div>
+                    </div>
+                    <div class="evento">
+                        <div class="horario">14:00</div>
+                        <div class="ponto-timeline"></div>
+                        <div class="detalhes">
+                            <h4>Ideias em Açao</h4>
+                            <p>Transformando criatividade em inovaçao tecnologica</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- dia 02 -->
+                <div id="dia-2" class="timeline-dia">
+                    <div class="evento">
+                        <div class="horario">10:00</div>
+                        <div class="ponto-timeline"></div>
+                        <div class="detalhes">
+                            <h4>IA Generativa</h4>
+                            <p>O poder da IA para criar,programar e inovar</p>
+                        </div>
+                    </div>
+                    <div class="evento">
+                        <div class="horario">11:00</div>
+                        <div class="ponto-timeline"></div>
+                        <div class="detalhes">
+                            <h4>Full Stack na Pratica</h4>
+                            <p>Do front-end ao back-end em projetos modernos</p>
+                        </div>
+                    </div>
+                    <div class="evento">
+                        <div class="horario">14:00</div>
+                        <div class="ponto-timeline"></div>
+                        <div class="detalhes">
+                            <h4>Inovaçao Tech</h4>
+                            <p>As tecnologias que estao moldando o futuro.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- dia 03 -->
+                <div id="dia-3" class="timeline-dia">
+                    <div class="evento">
+                        <div class="horario">10:00</div>
+                        <div class="ponto-timeline"></div>
+                        <div class="detalhes">
+                            <h4>Humanos + IA</h4>
+                            <p>Desenvolvendo novas soluçoes com inteligencia artificial</p>
+                        </div>
+                    </div>
+                    <div class="evento">
+                        <div class="horario">11:00</div>
+                        <div class="ponto-timeline"></div>
+                        <div class="detalhes">
+                            <h4>Codigo que Impacta</h4>
+                            <p>Criando tecnologia para resolver problemas reais</p>
+                        </div>
+                    </div>
+                    <div class="evento">
+                        <div class="horario">14:00</div>
+                        <div class="ponto-timeline"></div>
+                        <div class="detalhes">
+                            <h4>O Futuro da Tecnologia</h4>
+                            <p>Tendencias que podem transformar a proxima decada</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2 class="michroma-regular">TechConX</h2>
+        <p class="martel-sans-regular">©2026. Construindo o futuro com tecnologia</p>
+    </footer>
+    <script>
+        const btnTema = document.getElementById("btn-tema")
+        const body = document.body;
+
+        btnTema.addEventListener('click', function () {
+            body.classList.toggle("tema-claro");
+
+            if (body.classList.contains("tema-claro")) {
+                btnTema.textContent = "Modo Escuro"
+            } else {
+                btnTema.textContent = "Modo Claro"
+            }
+        })
+
+
+    //lógica da troca de programaçao dos dias
+
+    const botoesDia = document.querySelectorAll(".btn-dia")
+    const diasProgramaçao = document.querySelectorAll(".timeline-dia")
+
+    botoesDia.forEach(botao => {
+        botao.addEventListener('click', function(){
+            botoesDia.forEach(b => b.classList.remove("ativo"))
+
+            this.classList.add("ativo")
+
+            diasProgramaçao.forEach(d => d.classList.remove("ativo"))
+
+            const alvo = this.getAttribute("data-dia")
+            document.getElementById(alvo).classList.add("ativo")
+        })
+    } )
+    </script>
+</body>
+
+</html>
